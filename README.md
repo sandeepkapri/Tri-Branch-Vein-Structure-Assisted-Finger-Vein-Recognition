@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Tri-Branch Vein Structure Assisted Finger Vein Recognition
 
-You can use the [editor on GitHub](https://github.com/sandeepkapri/Tri-Branch-Vein-Structure-Assisted-Finger-Vein-Recognition/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Research Paper](https://ieeexplore.ieee.org/document/7993012/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Introduction
+This paper focuses on the recognition performance improvement of the template matching. In template matching, the probe image is accepted if its overlapped vein points with the enrolled image are more than the predefined threshold. However, the acceptance may be false as the structures of the probe vein pattern and the enrolled vein pattern may be different even with a large number of overlapped vein points. Therefore, the vein structure may have the capacity to enhance the template matching.
 
-### Markdown
+In this paper, the vein structure near the bifurcation point of vein pattern, named the tri-branch vein structure, is explored and employed to improve the performance of template matching by the proposed user-specific threshold based filter framework. The tri-branch vein structures are extracted from the whole vein pattern with the help of vein network. In the first level of the framework, the structures are used to filter some imposter images by user-specific threshold (i.e., the minimum genuine score of each user). In the second level, the whole vein pattern is employed to give the recognition result in the reduced matching space.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sandeepkapri/Tri-Branch-Vein-Structure-Assisted-Finger-Vein-Recognition/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
