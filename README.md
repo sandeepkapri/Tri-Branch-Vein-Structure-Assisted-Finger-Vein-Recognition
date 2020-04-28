@@ -8,4 +8,7 @@ This paper focuses on the recognition performance improvement of the template ma
 In this paper, the vein structure near the bifurcation point of vein pattern, named the tri-branch vein structure, is explored and employed to improve the performance of template matching by the proposed user-specific threshold based filter framework. The tri-branch vein structures are extracted from the whole vein pattern with the help of vein network. In the first level of the framework, the structures are used to filter some imposter images by user-specific threshold (i.e., the minimum genuine score of each user). In the second level, the whole vein pattern is employed to give the recognition result in the reduced matching space.
 
 
+## GUI Image
+
+<img src="https://github.com/sandeepkapri/Tri-Branch-Vein-Structure-Assisted-Finger-Vein-Recognition/blob/master/TBVS-FVR-GUI.png" width="800">
 
